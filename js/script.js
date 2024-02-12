@@ -20,7 +20,7 @@ Burger.addEventListener("click",function(){
 
 
 
-"user strickt"
+"user strict"
 const inputElement = document.getElementById("input1");
 const addbatton = document.querySelector(".btn");
 const ulItem = document.querySelector(".ul-list");
@@ -38,6 +38,7 @@ Form.addEventListener("submit",function(e){
     })
     li.textContent = valueInpuT ;
     li.appendChild(deleteBtn);
+   
     ulItem.appendChild(li);
     inputElement.value = " ";
 })
